@@ -1,5 +1,5 @@
 
-function wubi86_jidian_date_translator(input, seg)
+function date_translator(input, seg)
 
     -- 日期格式说明：
 
@@ -53,4 +53,4 @@ function wubi86_jidian_date_translator(input, seg)
     end
 end
 
-return wubi86_jidian_date_translator
+return date_translator
