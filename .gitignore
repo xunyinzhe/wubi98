@@ -1,0 +1,4 @@
+*.backup
+__pycache__/*
+data/jm.txt
+data/wubi_with_freq.txt
