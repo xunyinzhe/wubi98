@@ -10,7 +10,8 @@ python .\tool.py jian .\data\chars.txt .\wubi98_jm.dict.yaml
 # 生成词语表
 python .\tool.py conv .\ci\words.txt .\wubi98_ci.dict.yaml
 # 添加词频信息
-python .\tool.py conv .\ci\words.txt .\wubi98_ci.dict.yaml
+python .\tool.py freq .\wubi98_jm.dict.yaml .\wubi98_jm.dict.yaml
+python .\tool.py freq .\ci\wubi.txt .\ci\wubi_with_freq.txt
 '''
 import os
 
